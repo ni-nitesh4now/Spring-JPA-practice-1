@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jpaa
+    username: nitesh
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: create 
+    show-sql: true
